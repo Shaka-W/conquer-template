@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#main-header {
+    background: url(img/bg-1.jpg) no-repeat center center/cover;
+}
+
+/* Navigation */
+
+#nav {
+    background-color: #383E4C;
+    padding: 0.5rem 0 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.list-items {
+    display: flex;
+    justify-content: center;
+}
+
+.list-item {
+    list-style: none;
+    margin-right: 1rem;
+    border: 1px solid #fff;
+    padding: 1rem 2rem;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.list-item:hover {
+    background-color: #49505F;
+}
+
+/* Homepage */
+#homepage {
+    min-height: 575px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#homepage .title {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+#homepage .text {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+/* About Us */
+#about-us {
+    margin: 4rem 0;
+}
+
+#about-us .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-us .col {
+    width: 30%;
+}
+
+#about-us .information {
+    background: #f2f2f2;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+#about-us .green-title {
+    color: #178A27;
+    margin-bottom: 0.75rem;
+}
+
+#about-us .text {
+    margin-bottom: 2rem;
+}
+
+#about-us .blue-title {
+    color: #1686C1;
+    margin-bottom: 0.75rem;
+}
+
+#about-us .gray-title {
+    color: #666666;
+    margin-bottom: 0.75rem;
+}
+
+#about-us .button {
+    text-align: center;
+}
+
+#about-us .btn {
+    text-decoration: none;
+    color: #fff;
+ }
+ 
+#about-us .btn-green {
+    background-color: #178A27;
+    padding: 0.75rem 2rem;
+    border-radius: 10px;
+}
+
+#about-us .btn-blue {
+    background-color: #1686C1;
+    padding: 0.75rem 2rem;
+    border-radius: 10px;
+}
+
+
+#about-us .btn-red {
+    background-color: #852406;
+    padding: 0.75rem 2rem;
+    border-radius: 10px;
+}
+
+/* Section: Two-Col */
+#two-col .row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+#two-col .col {
+    width: 48%;
+}
+
+#two-col .information {
+    background: #f2f2f2;
+    padding: 1rem 1.3rem;
+}
+
+#two-col .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #666666;
+}
+
+#two-col .text {
+    margin-bottom: 1rem;
+    color: #666666;
+}
+
+/* Section: Services */
+#services {
+    background: url(img/bg-2.jpg) no-repeat center center/cover;
+    min-height: 300px;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-info {
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+}
+
+#services .title {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+
+}
+
+#services .text {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Section: Four-Col */
+#four-col {
+    margin-bottom: 2rem;
+}
+
+#four-col .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#four-col .col {
+    width: 22%;
+}
+
+
+#four-col .information {
+    background: #f2f2f2;
+    padding: 1rem 1.3rem 2rem 1.3rem;
+}
+
+#four-col .title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #666666;
+}
+
+#four-col .text {
+    margin-bottom: 2rem;
+    color: #666666;
+}
+
+#four-col .button {
+    text-align: center;
+}
+
+#four-col .button .btn {
+    text-decoration: none;
+    color: #666666;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+}
+
+
+/* Section: One-Col */
+#one-col {
+    margin-bottom: 4rem;
+}
+
+#one-col .information {
+    background-color: #f2f2f2;
+    padding: 1rem 1.3rem 3rem 1.3rem;
+}
+
+#one-col .title {
+    color: #666666;
+    margin-bottom: 1rem;
+}
+
+#one-col .text {
+    color: #666666;
+    margin-bottom: 1rem;
+}
+
+#one-col .button {
+    margin-top: 2rem;
+}
+
+#one-col .btn {
+    font-size: 1.2rem;
+    color: #666666;
+    border: 1px solid #cdcdcd;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+}
+
+/* Contact */
+#contact {
+    background: url(img/bg-3.jpg) no-repeat center center/cover;
+    min-height: 600px;
+    margin-bottom: 2rem;
+}
+
+.contact-container {
+    max-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+#contact .title {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+#contact .information {
+    text-align: center;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 1rem 2rem 1.5rem 2rem;
+    margin: 0 auto 2rem auto;
+}
+
+#contact .text {
+    font-size: 1.2rem;
+}
+
+#contact-form {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+#contact input {
+    display: block;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, .5);
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: #000;
+}
+
+textarea {
+    background-color: rgba(255, 255, 255, .5);
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#contact-form .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 1rem 2rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+}
+
+#footer .title {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+#footer .information {
+    max-width: 460px;
+    width: 90%;
+    margin: 0 auto 4rem auto;
+}
+
+.copyright-information .text {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+/* Media Queries */
+@media (max-width: 900px) {    
+    #four-col .row {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    #four-col .col {
+        width: 35%;
+        margin-bottom: 2rem;
+    }   
+}
+
+@media (max-width: 750px) {
+    .mobile-nav-icon {
+        position: fixed;
+        width: 100%;
+        text-align: right;
+        padding: 10px 20px 0 0;
+    }
+
+    .mobile-nav-icon i {
+        background-color: #383E4C;
+        color: #fff;
+        padding: 0.3rem 0.5rem;
+        cursor: pointer;
+    }
+
+    #nav {
+        top: 75px;
+        left: 0px;
+        right: 0px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .list-items {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .list-item {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding-top: 0.5rem;
+        margin-right: 0;
+    }
+
+    .list-item:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }    
+
+    #about-us .row, #two-col .row {
+        display: block;
+    }
+
+    #about-us .col {
+        width: 50%;
+        min-width: 290px;
+        margin: 0 auto 2rem auto;
+    }
+
+    #about-us .information {
+        text-align: center;
+    }
+
+    #two-col .col {
+        width: 80%;
+        min-width: 290px;
+        margin: 0 auto 2rem auto;
+    }
+    
+    #contact {
+        background: url(img/bg-3.jpg) no-repeat center center/cover;
+        min-height: 700px;
+        margin-bottom: 4rem;
+    }
+
+    #contact-form {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 8px;
+    }
+}
+
+@media (max-width: 500px) {
+    #homepage {
+        min-height: 400px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    #about-us .col {
+        width: 50%;
+        margin: 0 auto 2rem auto;
+    }
+
+    #four-col .row {
+        display: block;
+    }
+
+    #four-col .col {
+        width: 60%;
+        min-width: 270px;
+        margin: 0 auto 2rem auto;
+    }
+
+    #contact {
+        background: url(img/bg-3.jpg) no-repeat center center/cover;
+        min-height: 800px;
+        margin-bottom: 4rem;
+    }
+}
+
